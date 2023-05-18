@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    background-color: #DDF7E3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container{
+    display: block;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.pizza{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;   
+}
+
+.titulo1 {
+    display: flex;
+    color: aliceblue;
+    position: relative;
+    justify-content: center;
+    bottom: 60%;    
+}
+
+.menu-nav {
+    position: relative;
+    display: inline-flex;
+    bottom: 45%;
+    width: 100%;
+    background-color: #5D9C59;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    position: relative;
+    display: block;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.form {
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #C7E8CA;
+    width: 40%;
+    height: 40%;
+    left: 30%;
+}
+
+.name1 {
+    font-size: 100%;
+    top: 8%;
+    left: 30%;
+    position: absolute;
+}
+
+.input1 {
+    top: 13%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: transparent;
+    left: 40%;
+    position: absolute;
+}
+
+.input1:focus {
+    outline: none;
+}
+
+
+.input2 {
+    width: 20%;
+    border-radius: 10px;
+    background-color: transparent;
+    top: 23%;
+    left: 40%;
+    position: absolute;
+}
+
+.input2:focus {
+    outline: none;
+}
+
+.name2 {
+    top: 18%;
+    left: 30%;
+    position: absolute;
+}
+
+.button {
+    height: 8%;
+    width: 10%;
+    color: aliceblue;
+    display: flex;
+    background-color: #DF2E38;
+    border-radius: 10px;
+    border-color: transparent;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    color: aliceblue;
+    background-color: #5D9C59;
+    top: 90%;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
